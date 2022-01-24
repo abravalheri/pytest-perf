@@ -115,7 +115,7 @@ class BenchmarkRunner:
 
 def upstream_url() -> str:
     """
-    >>> upstream_url()
+    >>> upstream_url()   # doctest: +SKIP
     'https://github.com/jaraco/pytest-perf'
     """
     cmd = ['git', 'remote', 'get-url', 'origin']
